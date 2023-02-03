@@ -4,9 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",  
+    "start": "node app.js",
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^21.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
 }
